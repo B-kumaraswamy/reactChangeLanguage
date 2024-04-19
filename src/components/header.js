@@ -1,3 +1,4 @@
+import "./landingsection.css"
 function Header(props) {
     const {onChangingLanguage} = props
 
@@ -6,7 +7,7 @@ function Header(props) {
     }
 
     return (
-        <div>
+        <div className="header">
             <select onChange = {onChanging}>
                 <option>-select-</option>
                 <option value = "Telugu">Telugu</option>

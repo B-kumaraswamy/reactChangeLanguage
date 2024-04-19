@@ -12,10 +12,10 @@ function ChangeLanguage() {
 
    }
 
-
+// sending function as a prop to headers
   return (
     <div>
-      <Header onChangingLanguage = {onChangingLanguage}/>
+      <Header onChangingLanguage = {onChangingLanguage}/> 
       <LandingSection activeLanguage = {activeLanguage}/>
       <PlayTime  activeLanguage = {activeLanguage}/>
     </div>
